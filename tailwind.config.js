@@ -9,8 +9,18 @@ module.exports = {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: '#00ff88',
-                    dark: '#00cc6f',
+                    DEFAULT: '#4F8CFF',
+                    dark: '#3d7ae8',
+                    purple: '#7C5CFF',
+                },
+                heading: {
+                    DEFAULT: '#E6EDF3',
+                },
+                paragraph: {
+                    DEFAULT: '#E6EDF3',
+                },
+                background: {
+                    DEFAULT: '#0B0F19',
                 },
                 dark: {
                     DEFAULT: '#0a0a0a',

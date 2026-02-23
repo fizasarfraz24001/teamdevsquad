@@ -3,7 +3,7 @@ import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import TeamMembers from '@/components/TeamMembers'
-import Testimonials from '@/components/Testimonials'
+import Work from '@/components/Work'
 import FAQ from '@/components/FAQ'
 import CTA from '@/components/CTA'
 import ContactForm from '@/components/ContactForm'
@@ -17,7 +17,7 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
       <TeamMembers />
-      <Testimonials />
+      <Work />
       <FAQ />
       <CTA />
       <ContactForm />

@@ -4,45 +4,43 @@ export default function TeamMembers() {
     const teamMembers = [
         {
             name: 'Rohan Majeed',
-            role: 'Frontend Developer',
-            expertise: 'React, Next.js, TypeScript',
-            description: 'Specializes in building modern, responsive user interfaces with a focus on performance and user experience.',
+            role: 'Mern Stack Developer',
             image: '/team/rohan.png',
         },
         {
             name: 'Fiza Sarfraz',
-            role: 'Backend Developer',
-            expertise: 'Node.js, Python, Database Design',
-            description: 'Expert in server-side architecture, API development, and database optimization for scalable applications.',
+            role: 'Front-End Developer',
             image: '/team/fiza.png',
         },
         {
             name: 'Maryam Riaz',
-            role: 'UI/UX Designer',
-            expertise: 'Figma, Adobe XD, User Research',
-            description: 'Creates intuitive and beautiful designs that enhance user engagement and drive business results.',
-            image: null,
+            role: 'Frront-End Developer',
+            image: '/team/maryam.png',
         },
         {
             name: 'Farhat Sattar',
             role: 'Full Stack Developer',
-            expertise: 'React, Node.js, Cloud Services',
-            description: 'Versatile developer capable of handling both frontend and backend development with expertise in cloud deployment.',
-            image: null,
+            image: '/team/farhat.jpeg',
         },
         {
             name: 'Haider Hussain',
-            role: 'DevOps Engineer',
-            expertise: 'Docker, Kubernetes, CI/CD',
-            description: 'Ensures smooth deployment pipelines and maintains infrastructure for high availability and scalability.',
-            image: null,
+            role: 'Marketing Manager',
+            image: '/team/haider.jpeg',
         },
         {
             name: 'Muhammad Naveed',
-            role: 'Project Manager',
-            expertise: 'Agile, Scrum, Team Leadership',
-            description: 'Coordinates projects effectively, ensuring timely delivery and maintaining clear communication with clients.',
-            image: '/team/naveed.jpeg',
+            role: 'Frront-End Developer (intern)',
+            image: '/team/naveed.jpg',
+        },
+        {
+            name: 'Sumayya Hareem',
+            role: 'Full-stack Developer',
+            image: '/team/sumayya.jpeg',
+        },
+        {
+            name: 'Waleed Majeed',
+            role: 'Front-end Developer',
+            image: '/team/waleed.png',
         },
     ]
 
@@ -76,7 +74,7 @@ export default function TeamMembers() {
                                             alt={member.name}
                                             fill
                                             sizes="(max-width: 768px) 128px, 128px"
-                                            className="object-cover"
+                                            className="object-cover object-center"
                                             priority={index < 3}
                                         />
                                     </div>
@@ -95,19 +93,8 @@ export default function TeamMembers() {
                             </h3>
 
                             {/* Role */}
-                            <p className="text-primary font-semibold mb-3 text-center">
+                            <p className="text-primary font-semibold text-center">
                                 {member.role}
-                            </p>
-
-                            {/* Expertise */}
-                            <div className="mb-4">
-                                <p className="text-gray-300 text-sm font-medium mb-2">Expertise:</p>
-                                <p className="text-gray-400 text-sm">{member.expertise}</p>
-                            </div>
-
-                            {/* Description */}
-                            <p className="text-gray-400 text-sm leading-relaxed">
-                                {member.description}
                             </p>
                         </div>
                     ))}
